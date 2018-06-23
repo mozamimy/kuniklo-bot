@@ -5,6 +5,12 @@ PATH
       artii
       lita (>= 4.7)
 
+PATH
+  remote: plugins/lita-sushisyou
+  specs:
+    lita-sushisyou (0.1.0)
+      lita (>= 4.7)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -65,6 +71,7 @@ DEPENDENCIES
   lita-katakana!
   lita-slack
   lita-snack
+  lita-sushisyou!
 
 BUNDLED WITH
    1.16.1
