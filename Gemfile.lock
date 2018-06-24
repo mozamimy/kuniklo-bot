@@ -11,6 +11,12 @@ PATH
     lita-sushisyou (0.1.0)
       lita (>= 4.7)
 
+PATH
+  remote: plugins/lita-waiwai
+  specs:
+    lita-waiwai (0.1.0)
+      lita (>= 4.7)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -72,6 +78,7 @@ DEPENDENCIES
   lita-slack
   lita-snack
   lita-sushisyou!
+  lita-waiwai!
 
 BUNDLED WITH
    1.16.1
