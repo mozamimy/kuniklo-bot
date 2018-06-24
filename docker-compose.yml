@@ -6,6 +6,7 @@ services:
     environment:
       REDIS_URL: 'redis://redis:6379/1'
       SLACK_SECRET_TOKEN:
+      DOCOMO_API_KEY:
     networks:
       kuniklo_network:
         ipv4_address: '192.168.144.3'
